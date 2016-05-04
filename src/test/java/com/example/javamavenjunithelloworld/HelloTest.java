@@ -28,7 +28,7 @@ public class HelloTest {
     }
 	@Test
 	public void testowyTest(){
-		System.out.printf("Hello");
+		System.out.printf("Hello1");
 	}
 
     @Test
