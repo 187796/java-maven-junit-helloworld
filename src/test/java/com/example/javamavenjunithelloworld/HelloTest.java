@@ -26,6 +26,10 @@ public class HelloTest {
 
         assertThat(os.toString(), is(equalTo(Hello.HELLO + "\n")));
     }
+	@Test
+	public void testowyTest(){
+		System.out.printf("Hello");
+	}
 
     @Test
     public void testSayHelloAFewTimes() {
